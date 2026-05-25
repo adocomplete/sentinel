@@ -1,0 +1,18 @@
+{
+  "name": "sentinel",
+  "version": "0.1.0",
+  "description": "Authorization auditor for APIs. Finds IDOR / broken object-level authorization, missing role checks, mass assignment, tenant-isolation gaps, unauthenticated routes, and JWT validation flaws.",
+  "author": {
+    "name": "Ado Kukic",
+    "email": "kukicadnan@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "authorization",
+    "authentication",
+    "api",
+    "owasp",
+    "multi-tenant"
+  ]
+}

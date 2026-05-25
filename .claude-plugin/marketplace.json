@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sentinel",
+  "owner": {
+    "name": "Ado Kukic",
+    "email": "kukicadnan@gmail.com"
+  },
+  "description": "Sentinel: an authorization auditor plugin for your API.",
+  "plugins": [
+    {
+      "name": "sentinel",
+      "source": "./",
+      "description": "Authorization auditor for APIs. Finds IDOR, missing role checks, mass assignment, tenant-isolation gaps, unauthenticated routes, and JWT validation flaws.",
+      "version": "0.1.0",
+      "category": "security"
+    }
+  ]
+}
