@@ -30,14 +30,6 @@ Sentinel ships three components that work at three different moments:
 
 ## Install
 
-```bash
-git clone https://github.com/adocomplete/sentinel.git
-cd sentinel
-claude            # start Claude Code inside the repo
-```
-
-Then, inside Claude Code:
-
 ```
 /plugin marketplace add adocomplete/sentinel
 /plugin install sentinel@sentinel
