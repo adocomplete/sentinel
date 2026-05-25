@@ -11,8 +11,6 @@ Sentinel finds authentication and authorization bugs that leak one customer's da
 * Unauthenticated routes
 * JWT validation flaws
 
----
-
 ## Who it's for
 
 Sentinel is built for **backend engineers** that work on authn/authz workflows. That engineer doesn't need a generic "security scanner." They need something
@@ -30,7 +28,7 @@ Sentinel ships three components that work at three different moments:
 | `auth-review` | Skill | An OWASP API-aligned checklist and reference material, used inline when writing or reviewing endpoints. Also runnable as `/auth-review`. |
 | route-edit reminder | Hook | Automatically — after any edit to route/handler code, it nudges you to confirm the auth checks are still in place. |
 
-## Install (under 5 minutes, from a fresh clone)
+## Install
 
 ```bash
 git clone https://github.com/adocomplete/sentinel.git
