@@ -2,8 +2,7 @@
 
 Deep reference for authorization — checklist items 2–5 in `SKILL.md`. Covers
 object-level authorization, function-level authorization, tenant isolation, and
-safe input binding. Examples are in Go (`net/http`) and TypeScript, the two
-stacks this plugin's demo uses; the patterns transfer to any framework.
+safe input binding. Examples are in Go (`net/http`) and TypeScript but the patterns transfer to any framework.
 
 ---
 
